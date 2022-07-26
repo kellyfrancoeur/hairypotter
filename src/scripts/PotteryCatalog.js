@@ -1,21 +1,22 @@
-const sellinSomePots = []
 
+let sellinSomePots = []
+let pot = []
 export const toSellOrNotToSell = (potObject) => {
-    if (potObject.cracked === true) {
-        if (potObject.weight >= 6) {
-            potObject.price = 40
-        } else {
+    if (potObject.cracked === false) {
+        if (potObject.weight < 6) {
             potObject.price = 20
+        } else {
+            potObject.price = 40
         }
         sellinSomePots.push(potObject)
     }
-    if (potObject.cracked === false) {
-        sellinSomePots.push(potObject)
+    else{
+
     }
     return potObject
 }
 
 export const usePottery = () => {
-    const pot = [...sellinSomePots]
+    pot = [...sellinSomePots]
     return pot 
 }

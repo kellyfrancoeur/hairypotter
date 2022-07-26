@@ -10,4 +10,3 @@ export const makePottery = (potShape, potWeight, potHeight) => {
     return pots
 }
 
-// module.exports = {makePottery}
