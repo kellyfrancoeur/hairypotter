@@ -11,10 +11,24 @@ textarea {
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
+	justify-content: center;
+	text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+  justify-content: center;
+  text-align: center;
 }
-
+html { 
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBIIy5DpVfXkH8bzDqkxDrwVYf7_Q1G4YMDKyp_21Xg6w19gJsJXrRWuINED_OgW_Xy8&usqp=CAU) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* .pageHeader{
+    text-align: center;
+    font-size: 100px;
+  } */
